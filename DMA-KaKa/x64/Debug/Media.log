@@ -1,0 +1,462 @@
+﻿  imgui_impl_dx11.cpp
+C:\Users\Administrator\Desktop\pao x por\Include\backends\imgui_impl_dx11.cpp(36,10): error C1083: 无法打开包括文件: “imgui.h”: No such file or directory
+  imgui_impl_win32.cpp
+C:\Users\Administrator\Desktop\pao x por\Include\backends\imgui_impl_win32.cpp(19,10): error C1083: 无法打开包括文件: “imgui.h”: No such file or directory
+  DMALibrary.cpp
+  InputManager.cpp
+D:\kaka\Include\DMALibrary\Memory\Registry.h(4,12): error C2011: “e_registry_type”:“enum”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/InputManager.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.h(4,12):
+      参见“e_registry_type”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\Registry.h(22,7): error C2011: “c_registry”:“class”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/InputManager.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.h(22,7):
+      参见“c_registry”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\InputManager.h(5,7): error C2011: “c_keys”:“class”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/InputManager.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.h(5,7):
+      参见“c_keys”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\Memory.h(49,9): error C2079: “Memory::key”使用未定义的 class“c_keys”
+  (编译源文件“Include/DMALibrary/Memory/InputManager.cpp”)
+  
+D:\kaka\Include\DMALibrary\Memory\Memory.h(50,13): error C2079: “Memory::registry”使用未定义的 class“c_registry”
+  (编译源文件“Include/DMALibrary/Memory/InputManager.cpp”)
+  
+D:\kaka\Include\DMALibrary\Memory\Memory.h(68,13): error C2027: 使用了未定义类型“c_registry”
+  (编译源文件“Include/DMALibrary/Memory/InputManager.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.h(22,7):
+      参见“c_registry”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\Memory.h(74,9): error C2027: 使用了未定义类型“c_keys”
+  (编译源文件“Include/DMALibrary/Memory/InputManager.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.h(5,7):
+      参见“c_keys”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(11,14): error C2027: 使用了未定义类型“c_keys”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.h(5,7):
+      参见“c_keys”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(13,20): error C2065: “registry”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(13,128): error C2027: 使用了未定义类型“e_registry_type”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.h(4,12):
+      参见“e_registry_type”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(13,128): error C2065: “sz”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(19,20): error C2065: “registry”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(19,119): error C2027: 使用了未定义类型“e_registry_type”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.h(4,12):
+      参见“e_registry_type”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(19,119): error C2065: “dword”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(25,2): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(50,5): error C2065: “gafAsyncKeyStateExport”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(53,5): error C2065: “gafAsyncKeyStateExport”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(56,5): error C2065: “gafAsyncKeyStateExport”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(58,8): error C2065: “gafAsyncKeyStateExport”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(60,7): error C2065: “gafAsyncKeyStateExport”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(84,5): error C2065: “gafAsyncKeyStateExport”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(92,46): error C2059: 语法错误:“)”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(93,3): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(95,178): error C2065: “module_info”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(95,216): error C2059: 语法错误:“)”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(97,4): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(100,4): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(103,112): error C2065: “module_info”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(103,133): error C2065: “str”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(103,136): error C2059: 语法错误:“)”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(104,4): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(107,4): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(110,46): error C2065: “str”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(110,91): error C2065: “gafAsyncKeyState”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(110,107): error C2059: 语法错误:“)”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(111,4): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(114,4): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(115,45): error C2065: “gafAsyncKeyState”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(116,3): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(117,30): error C2947: 应由“>”终止 模板参数列表，却找到“>”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(117,32): error C2059: 语法错误:“常数”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(123,14): error C2027: 使用了未定义类型“c_keys”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.h(5,7):
+      参见“c_keys”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(126,36): error C2065: “state_bitmap”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(128,32): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(128,92): error C2065: “gafAsyncKeyStateExport”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(128,141): error C2065: “state_bitmap”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(130,8): error C2065: “state_bitmap”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(131,4): error C2065: “previous_state_bitmap”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(133,14): error C2027: 使用了未定义类型“c_keys”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.h(5,7):
+      参见“c_keys”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(135,22): error C2065: “previous_state_bitmap”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(135,13): error C2737: “result”: 必须初始化 const 对象
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(136,2): error C2065: “previous_state_bitmap”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(139,14): error C2027: 使用了未定义类型“c_keys”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.h(5,7):
+      参见“c_keys”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(141,45): error C2059: 语法错误:“)”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(143,47): error C2947: 应由“>”终止 模板参数列表，却找到“>”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(143,62): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(143,62): error C2226: 语法错误: 意外的“std::chrono::milliseconds”类型
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(143,74): error C2059: 语法错误:“(”
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(144,2): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(146,3): error C2065: “start”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(148,9): error C2065: “state_bitmap”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.cpp(149,1): error C1506: 无法恢复的块范围错误
+  Memory.cpp
+D:\kaka\Include\DMALibrary\Memory\Registry.h(4,12): error C2011: “e_registry_type”:“enum”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.h(4,12):
+      参见“e_registry_type”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\Registry.h(22,7): error C2011: “c_registry”:“class”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.h(22,7):
+      参见“c_registry”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\InputManager.h(5,7): error C2011: “c_keys”:“class”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\InputManager.h(5,7):
+      参见“c_keys”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\Shellcode.h(4,7): error C2011: “c_shellcode”:“class”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Shellcode.h(4,7):
+      参见“c_shellcode”的声明
+  
+D:\kaka\Include\DMALibrary\nt\structs.h(3,16): error C2011: “_PEB_LDR_DATA”:“struct”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\nt\structs.h(3,16):
+      参见“_PEB_LDR_DATA”的声明
+  
+D:\kaka\Include\DMALibrary\nt\structs.h(10,16): error C2011: “_UNICODE_STRING”:“struct”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\nt\structs.h(10,16):
+      参见“_UNICODE_STRING”的声明
+  
+D:\kaka\Include\DMALibrary\nt\structs.h(17,16): error C2011: “_LDR_DATA_TABLE_ENTRY”:“struct”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\nt\structs.h(17,16):
+      参见“_LDR_DATA_TABLE_ENTRY”的声明
+  
+D:\kaka\Include\DMALibrary\nt\structs.h(38,16): error C2011: “_RTL_USER_PROCESS_PARAMETERS”:“struct”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\nt\structs.h(38,16):
+      参见“_RTL_USER_PROCESS_PARAMETERS”的声明
+  
+D:\kaka\Include\DMALibrary\nt\structs.h(49,16): error C2011: “_PEB”:“struct”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\nt\structs.h(49,16):
+      参见“_PEB”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\Memory.h(8,7): error C2011: “Memory”:“class”类型重定义
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+D:\kaka\Include\DMALibrary\Memory\Memory.h(329,15): error C2079: “mem”使用未定义的 class“Memory”
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+  
+D:\kaka\Include\DMALibrary\Memory\Memory.h(329,15): error C2371: “mem”: 重定义；不同的基类型
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(329,15):
+      参见“mem”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Common\Data.h(924,9): error C2079: “FGameData::Keyboard”使用未定义的 class“c_keys”
+  (编译源文件“Include/DMALibrary/Memory/Memory.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(8,9): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(8,9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(11,2): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(12,2): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(13,2): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(15,7): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(15,23): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(15,42): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(17,20): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(18,20): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(19,22): error C2065: “modules”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(25,10): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(25,10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(27,15): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(28,2): error C2065: “DMA_INITIALIZED”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(29,2): error C2065: “PROCESS_INITIALIZED”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(32,14): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(87,14): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(91,23): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(91,86): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(91,165): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(118,14): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(121,19): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(125,14): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(127,19): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(130,14): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(132,7): error C2065: “DMA_INITIALIZED”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(147,9): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(163,3): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(164,8): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(172,20): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(173,20): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(179,8): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(182,17): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(186,3): error C2065: “DMA_INITIALIZED”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(194,17): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(196,38): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(199,15): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(207,48): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(215,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(216,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(216,41): error C3861: “GetBaseDaddy”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(217,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(217,38): error C3861: “GetBaseSize”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(218,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(220,22): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(220,41): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(223,25): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(224,25): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(225,20): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(226,11): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(227,5): error C2065: “PROCESS_INITIALIZED”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(236,15): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(239,18): error C3861: “GetPidListFromName”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(240,18): error C3312: 找不到类型 "unknown-type" 的可调用 "begin" 函数
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(240,18): error C3312: 找不到类型 "unknown-type" 的可调用 "end" 函数
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(240,12): error C3531: “pid”: 类型包含“auto”的符号必须具有初始值设定项
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(240,16): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(240,26): error C2143: 语法错误: 缺少“;”(在“)”的前面)
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(242,36): error C3861: “GetBaseDaddy”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(242,21): error C3861: “Read”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(245,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(246,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(246,41): error C3861: “GetBaseDaddy”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(247,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(247,38): error C3861: “GetBaseSize”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(248,4): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(250,24): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(251,19): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(252,32): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(252,53): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(253,4): error C2065: “PROCESS_INITIALIZED”: 未声明的标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(261,15): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(264,24): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(268,26): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(273,48): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(293,34): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(297,39): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(297,54): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(297,17): error C2660: “VMMDLL_Map_GetModuleU”: 函数不接受 3 个参数
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\libs\vmmdll.h(1723,32):
+      参见“VMMDLL_Map_GetModuleU”的声明
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(297,17):
+      尝试匹配参数列表“()”时
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(313,36): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(321,45): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(321,60): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(321,16): error C2660: “VMMDLL_ProcessGetInformation”: 函数不接受 3 个参数
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\libs\vmmdll.h(2359,14):
+      参见“VMMDLL_ProcessGetInformation”的声明
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(321,16):
+      尝试匹配参数列表“()”时
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(331,13): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(331,13): error C2027: 使用了未定义类型“_PEB”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\nt\structs.h(49,16):
+      参见“_PEB”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(337,10): error C3861: “Read”: 找不到标识符
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(343,16): error C2027: 使用了未定义类型“Memory”
+      C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.h(8,7):
+      参见“Memory”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(348,47): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Memory.cpp(348,47): error C1003: 错误计数超过 100；正在停止编译
+  Registry.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4829,18): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+  (编译源文件“Include/DMALibrary/Memory/Registry.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4829,18):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.cpp(26,20):
+          查看对正在编译的函数 模板 实例化“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)”的引用
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Administrator\Desktop\pao x por\Include\DMALibrary\Memory\Registry.cpp(26,2):
+              请参阅 "c_registry::QueryValue" 中对 "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" 的第一个引用
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(788,17):
+          查看对正在编译的函数 模板 实例化“void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)”的引用
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(944,18):
+          查看对正在编译的函数 模板 实例化“_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)”的引用
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Shellcode.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_freetype.cpp
+C:\Users\Administrator\Desktop\pao x por\Include\imgui\imgui_freetype.cpp(39,10): error C1083: 无法打开包括文件: “ft2build.h”: No such file or directory
+  imgui_knobs.cpp
+C:\Users\Administrator\Desktop\pao x por\Include\imgui\imgui_knobs.cpp(4,10): error C1083: 无法打开包括文件: “imgui.h”: No such file or directory
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_stdlib.cpp
+C:\Users\Administrator\Desktop\pao x por\Include\misc\cpp\imgui_stdlib.cpp(10,10): error C1083: 无法打开包括文件: “imgui.h”: No such file or directory
+  Main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winhttp.h(116,3): error C2371: “HTTP_VERSION_INFO”: 重定义；不同的基类型
+  (编译源文件“Main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(485,3):
+      参见“HTTP_VERSION_INFO”的声明
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winhttp.h(116,23): error C2371: “LPHTTP_VERSION_INFO”: 重定义；不同的基类型
+  (编译源文件“Main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(485,24):
+      参见“LPHTTP_VERSION_INFO”的声明
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winhttp.h(123,13): error C2371: “INTERNET_SCHEME”: 重定义；不同的基类型
+  (编译源文件“Main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(304,3):
+      参见“INTERNET_SCHEME”的声明
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winhttp.h(123,31): error C2371: “LPINTERNET_SCHEME”: 重定义；不同的基类型
+  (编译源文件“Main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(304,22):
+      参见“LPINTERNET_SCHEME”的声明
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winhttp.h(167,3): error C2371: “URL_COMPONENTS”: 重定义；不同的基类型
+  (编译源文件“Main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(578,25):
+      参见“URL_COMPONENTS”的声明
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winhttp.h(167,20): error C2371: “LPURL_COMPONENTS”: 重定义；不同的基类型
+  (编译源文件“Main.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(579,27):
+      参见“LPURL_COMPONENTS”的声明
+  
+C:\Users\Administrator\Desktop\pao x por\Main.cpp(14,10): error C1083: 无法打开包括文件: “QPVerify.h”: No such file or directory
+  Entitys.cpp
+  VectorHelper.cpp
+  Decrypt.cpp
+  Process.cpp
+  DMARender.cpp
+  正在生成代码...
+  正在编译...
+  Overlay.cpp
+C:\Users\Administrator\Desktop\pao x por\Source\Overlay\ESP.h(669,43): error C2676: 二进制“-”:“ImVec2”不定义该运算符或到预定义运算符可接收的类型的转换
+  (编译源文件“Source/Overlay/Overlay.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Overlay\ESP.h(684,41): error C2676: 二进制“-”:“ImVec2”不定义该运算符或到预定义运算符可接收的类型的转换
+  (编译源文件“Source/Overlay/Overlay.cpp”)
+  
+D:\kaka\Include\imgui\imgui_elements.h(5,10): error C1083: 无法打开包括文件: “imgui.h”: No such file or directory
+  (编译源文件“Source/Overlay/Overlay.cpp”)
+  
+  Texture.cpp
+  KmBox.cpp
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(76,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/KmBox.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(77,9): error C4996: '_ltoa': This function or variable may be unsafe. Consider using _ltoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/KmBox.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(78,9): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/KmBox.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(399,13): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/KmBox.cpp”)
+  
+  Lurker.cpp
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(76,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/Lurker.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(77,9): error C4996: '_ltoa': This function or variable may be unsafe. Consider using _ltoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/Lurker.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(78,9): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/Lurker.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\COM.h(399,13): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“Source/Utils/Lurker.cpp”)
+  
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\Lurker.cpp(23,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\Lurker.cpp(24,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\pao x por\Source\Utils\Lurker.cpp(27,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MoBox.cpp
+  kmboxNet.cpp
+  string.cpp
+  Throttler.cpp
+  Timer.cpp
+  matrix.cpp
+  quat.cpp
+  rotator.cpp
+  transform.cpp
+  vector.cpp
+  w3c.cpp
+  正在生成代码...

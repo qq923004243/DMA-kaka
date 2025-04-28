@@ -1,0 +1,22 @@
+﻿  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  DMALibrary.cpp
+  InputManager.cpp
+  Memory.cpp
+  Registry.cpp
+  Shellcode.cpp
+  IOverlay.cpp
+  Vector3.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_freetype.cpp
+  imgui_knobs.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_stdlib.cpp
+  Main.cpp
+  Entitys.cpp
+  VectorHelper.cpp
+  Decrypt.cpp
+  正在生成代码...
+C:\Users\GKYN20230046\Desktop\kaka\Main.cpp : fatal  error C1128: 节数超过对象文件格式限制: 请使用 /bigobj 进行编译

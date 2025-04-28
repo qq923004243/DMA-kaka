@@ -1,0 +1,68 @@
+﻿  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  DMALibrary.cpp
+  InputManager.cpp
+  Memory.cpp
+  Registry.cpp
+  Shellcode.cpp
+  IOverlay.cpp
+  Vector3.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_freetype.cpp
+  imgui_knobs.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_stdlib.cpp
+  Main.cpp
+  Entitys.cpp
+  VectorHelper.cpp
+  Decrypt.cpp
+  Process.cpp
+  DMARender.cpp
+  Overlay.cpp
+  Texture.cpp
+  KmBox.cpp
+  Lurker.cpp
+  MoBox.cpp
+  kmboxNet.cpp
+  string.cpp
+  Throttler.cpp
+  Timer.cpp
+  matrix.cpp
+  quat.cpp
+  rotator.cpp
+  transform.cpp
+  vector.cpp
+  w3c.cpp
+  uSynergy.c
+  cJSON.c
+    正在创建库 C:\Users\GKYN20230046\Desktop\kaka\x64\AKM_Test\AKM_Test.lib 和对象 C:\Users\GKYN20230046\Desktop\kaka\x64\AKM_Test\AKM_Test.exp
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+freetype.lib(ftbase.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftbase.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftinit.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftinit.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftsynth.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftsynth.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftsystem.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftsystem.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(autofit.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(autofit.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(truetype.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(truetype.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type1.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(type1.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(cff.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(cff.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type1cid.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(type1cid.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pfr.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(pfr.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type42.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(type42.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(winfnt.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(winfnt.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pcf.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(pcf.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(bdf.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(bdf.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(psaux.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(psaux.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(psmodule.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(psmodule.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pshinter.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(pshinter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(sfnt.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(sfnt.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(smooth.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(smooth.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(raster.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(raster.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(sdf.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(sdf.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(svg.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(svg.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftbitmap.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftbitmap.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftgzip.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftgzip.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftlzw.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftlzw.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftdebug.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftdebug.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  Media.vcxproj -> C:\Users\GKYN20230046\Desktop\kaka\x64\AKM_Test\AKM_Test.exe
